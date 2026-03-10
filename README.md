@@ -1,4 +1,4 @@
-# Retail_Sales_SQL_project
+**Retail_Sales_SQL_project**
 Retail Sales Analysis using SQL
 Project Overview
 
@@ -61,12 +61,15 @@ Removed or handled null records
 
 Example:
 
+'''sql
 SELECT * 
 FROM retail_sales
 WHERE 
 transaction_id IS NULL
 OR sale_date IS NULL
 OR total_sale IS NULL;
+'''
+
 2️⃣ Total Sales Analysis
 
 Calculated the overall revenue generated from sales.
